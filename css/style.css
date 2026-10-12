@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="col"] {
+  float: left;
+  padding: 15px;
+}
+
+.directions {
+  padding-left: 60px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/*Global Styles
+---------------------------*/
+body {
+  color: #9b2867;
+  background-image: url(../images/background-image.jpg);
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 16px;
+}
+
+
+/*Headings
+---------------------------*/
+h1,
+h2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 3px #896b43;
+}
+
+h3 {
+  color: #9b2867;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: left;
+  text-shadow: 3px 3px 3px #e8cf9a;
+}
+
+.rate {
+  text-align: left;
+  margin-top: -13px;
+}
+
+.conversion {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  width: 360px;
+  padding: 14px 18px;
+  margin: 0;
+  text-align: center;
+  color: #896b43;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  border: 5px double #114520;
+  border-radius: 50px 0px 0px 50px;
+  background-color: #e8cf9a;
+}
+
+/*Paragraph
+---------------------------*/
+p {
+  color: #7c6b47;
+  font-size: 18px;
+  font-family: "Marker Felt", "Comic Sans MS", cursive;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.author {
+  font-style: italic;
+}
+
+/*Image
+---------------------------*/
+figure {
+  margin: 20px 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+
+}
+
+figcaption {
+  text-align: center;
+  color: #896b43;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 13px;
+}
+
+/*Lists
+---------------------------*/
+.menu {
+  margin-top: -16px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu li {
+  width: 90%;
+  margin-bottom: 8px;
+  padding: 6px 6px;
+  border: 6px solid #245c04;
+  background-color: #e8cf9a;
+  text-align: center;
+  color: #114520;
+  font-family: "Marker Felt", "Comic Sans MS", cursive;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.menu a {
+  color: #245c04;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #6E2028;
+}
+
+ul {
+  color: #114520;
+  list-style-type: square;
+  color: #4f1e22;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+  color: #4f1e22;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol {
+  padding-left: 30px;
+}
+
+/* Rating / Conversion Form 
+---------------------------*/
+fieldset {
+  color: #896b43;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+legend {
+  font-size: 20px;
+  color: #114520;
+  font-family: "Marker Felt", "Comic Sans MS", cursive;
+}
+
+.difficulty {
+  font-family: "Marker Felt", "Comic Sans MS", cursive;
+  color: #9b2867;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+
+input {
+  padding: 5px;
+}
+
+ol {
+  padding-left: 30px;
+  line-height: 1.5;
+}
+
+/*Divider
+---------------------------*/
+hr {
+  border: 1px solid #6E2028;
+}
+
+
+/*Page Layout
+---------------------------*/
+/*div {
+  border: double cornflowerblue;
+}*/
+
+.row {
+  margin-bottom: 5px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  flex: 1;
+}
